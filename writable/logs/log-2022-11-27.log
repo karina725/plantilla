@@ -1,0 +1,22 @@
+CRITICAL - 2022-11-27 15:59:06 --> Undefined variable $item
+in APPPATH\Views\Gallery\all.php on line 4.
+ 1 APPPATH\Views\Gallery\all.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\Gallery\\all.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Gallery\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Gallery/all', [], true)
+ 5 APPPATH\Controllers\Gallery.php(16): view('Gallery/all', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 15:59:08 --> Undefined variable $item
+in APPPATH\Views\Gallery\all.php on line 4.
+ 1 APPPATH\Views\Gallery\all.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\Gallery\\all.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Gallery\\all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Gallery/all', [], true)
+ 5 APPPATH\Controllers\Gallery.php(16): view('Gallery/all', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
