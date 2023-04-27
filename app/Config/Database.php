@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'https://www.cleardb.com/database/details?id=147EA63CE2E0471BD80193A4BEFBC971',
+        'hostname' => 'localhost',
         'username' => 'b264e7f33d46d8',
         'password' => 'a4b22f42',
-        'database' => 'https://github.com/karina725/plantilla',
+        'database' => 'heroku_63529e2d71924ab',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
