@@ -32,7 +32,7 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
+        'hostname' => 'cleardb-adjacent-75489',
         'username' => 'b264e7f33d46d8',
         'password' => 'a4b22f42',
         'database' => 'heroku_63529e2d71924ab',
