@@ -97,6 +97,7 @@
                         La Casita, Los Girasoles<br>
                         C.P. 45138 Zapopan, Jal.<br>
                         <p>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14925.354465229324!2d-103.4244063!3d20.7370651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af6912ae390f%3A0xa30cd1e5e30c7d8d!2sJugos%20Jara!5e0!3m2!1ses-419!2smx!4v1683141562328!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </main>
