@@ -77,7 +77,7 @@
                         <img src="imagen/imagen3.jpg" alt=''>
                         <div class="area-intermedia">
                             <h3>Variedad</h3>
-                            <p>En nuestro negocio tenemos una gran variedad, como lo son Naranja, Zanahoria, Toronja, Mandarina, Betabel, Verde y conbinado.</p>
+                            <p>En nuestro negocio tenemos una gran variedad, como lo son Naranja, Zanahoria, Toronja, Mandarina, Betabel, Verde y combinado.</p>
                         </div>
                     </li>
                     <li>
