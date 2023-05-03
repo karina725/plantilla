@@ -121,6 +121,11 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   cursor:pointer;
 }
+th{
+  text-align: justify;
+  background:scroll;
+  margin: 5px; 
+}
 /*  */
 body {
 margin: 0;
