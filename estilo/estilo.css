@@ -123,6 +123,9 @@ form input[type="submit"]:hover {
 }
 th{
   text-align: justify;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color:#fff  ;
   background:scroll;
   margin: 5px; 
 }
