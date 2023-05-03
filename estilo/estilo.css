@@ -121,7 +121,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   cursor:pointer;
 }
-.table {
+table {
   border-collapse: collapse;
   margin: 25px 0; 
   font-size: 1em; 
@@ -129,21 +129,21 @@ form input[type="submit"]:hover {
   min-width: 450px; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
 }
-.table thead tr {
+table thead tr {
   background-color: #980081; 
   color: #ffffff; 
   text-align: middle; 
 }
-.table th, .table td { 
+table th, table td { 
   padding: 12px 15px; 
 }
-.table tbody tr {
+table tbody tr {
   border-bottom: 1px solid #dddddd; 
 } 
-.table tbody tr:nth-of-type(even) { 
+table tbody tr:nth-of-type(even) { 
   background-color: #f3f3f3; 
 } 
-.table tbody tr:last-of-type {
+table tbody tr:last-of-type {
   border-bottom: 2px solid #009879; 
 }
 /*  */
