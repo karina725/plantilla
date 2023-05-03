@@ -147,6 +147,11 @@
             <br>
             <br>
 
+            
+                <p></p>
+            </div>
+        </aside>
+        <footer class="pie-de-pagina">
             <h3>Comentarios de algunos clientes</h3>
 
             <table>
@@ -171,10 +176,6 @@
                     ?>
                 </tbody>
             </table>
-                <p></p>
-            </div>
-        </aside>
-        <footer class="pie-de-pagina">
             <aside>Para mayor información, visite 
             <a href="#" target="_blank" rel="nofollow">nuestro sitio</a>.
         </footer>
