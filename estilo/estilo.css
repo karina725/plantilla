@@ -121,7 +121,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   cursor:pointer;
 }
-th{
+form th{
   text-align: justify;
   font-size: medium;
   font-family: 'Times New Roman', Times, serif;
