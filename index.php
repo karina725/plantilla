@@ -2,18 +2,18 @@
     $nombre = "sin nombre";
     $apellidos = "sin apellidos";
     $email = "sin email";
-    $estado = "sin estado";
+    $jugo = "sin jugo";
     $comentario = "sin comentario";
     if ( !empty($_POST['nombre']) && !empty($_POST['comentario']) ) { 
         $nombre = $_POST['nombre'];
         $apellidos = $_POST['apellidos'];
         $email = $_POST['email'];
-        $estado = $_POST['estado'];
+        $jugo = $_POST['jugo'];
         $comentario = $_POST['comentario'];
         echo $nombre;
         echo $apellidos;
         echo $email;
-        echo $estado;
+        echo $jugo;
         echo $comentario;
 
         $host = 'us-cdbr-east-06.cleardb.net';
@@ -23,7 +23,7 @@
 
         $mysqli = new mysqli($host,$user,$pass);
         mysqli_select_db($mysqli,$ddbb);
-        $sql = "INSERT INTO comentarios (nombre, apellidos, email, estado, comentario) VALUES ('$nombre', '$apellidos', '$email', '$estado', '$comentario')";
+        $sql = "INSERT INTO comentarios (nombre, apellidos, email, jugo, comentario) VALUES ('$nombre', '$apellidos', '$email', '$jugo', '$comentario')";
         $result = mysqli_query($mysqli,$sql);
     }
     /*
@@ -127,15 +127,16 @@
                 <input type="email" name="email" id="email" placeholder="email"/>
 
                 <br/>
-                <label for="estado">De donde nos visitas: </label>
-                <select id="estado" name="estado">
-                    <option value="">Estado</option>
-                    <option value="Aguascalientes">Aguascalientes</option>
-                    <option value="Cancun">Cancun</option>
-                    <option value="Sonora">Sonora</option>
-                    <option value="Veracruz">Veracruz</option>
-                    <option value="Mexico">Mexico</option>
-                    <option value="Guadalajra">Guadalajra</option>
+                <label for="jugo">Que jugó prefieres: </label>
+                <select id="jugo" name="jugo">
+                    <option value="">Jugó </option>
+                    <option value="Naranja">Naranja</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Zanahoria">Zanahoria</option>
+                    <option value="Combinado">Combinado</option>
+                    <option value="Mandarina">Mandarina</option>
+                    <option value="Toronja">Toronja</option>
+                    <option value="Betabel">Betabel</option>
                 </select>
 
                 <br/>
