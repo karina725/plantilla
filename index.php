@@ -115,7 +115,7 @@
                 </p>
             </div>
             <div class="barra-lateral">
-                <h2>comentarios </h2>
+                <h2>Comentarios </h2>
                 <form action="<?php $_PHP_SELF ?>" target="" method="POST" name="formComentario">
                 <h3>Formulario de contacto y comentarios</h3>
 
