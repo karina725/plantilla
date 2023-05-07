@@ -179,7 +179,7 @@
                 </tbody>
             </table>
             <aside>Para almacenamiento de informacion, visite 
-            <a href="https://dashboard.heroku.com/</a>.
+            <a href="https://dashboard.heroku.com/> </a>.
         </footer>
 </body>
 </html>
