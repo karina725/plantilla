@@ -178,8 +178,8 @@
                     ?>
                 </tbody>
             </table>
-            <aside>Para mayor información, visite 
-            <a href="#" target="_blank" rel="nofollow">nuestro sitio</a>.
+            <aside>Para almacenamiento de informacion, visite 
+            <a href="https://dashboard.heroku.com/</a>.
         </footer>
 </body>
 </html>
