@@ -2,18 +2,18 @@
     $nombre = "sin nombre";
     $apellidos = "sin apellidos";
     $email = "sin email";
-    $jugo = "sin jugo";
+    $estado = "sin jugo";
     $comentario = "sin comentario";
     if ( !empty($_POST['nombre']) && !empty($_POST['comentario']) ) { 
         $nombre = $_POST['nombre'];
         $apellidos = $_POST['apellidos'];
         $email = $_POST['email'];
-        $jugo = $_POST['jugo'];
+        $estado = $_POST['jugo'];
         $comentario = $_POST['comentario'];
         echo $nombre;
         echo $apellidos;
         echo $email;
-        echo $jugo;
+        echo $estado;
         echo $comentario;
 
         $host = 'us-cdbr-east-06.cleardb.net';
