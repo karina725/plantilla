@@ -2,13 +2,13 @@
     $nombre = "sin nombre";
     $apellidos = "sin apellidos";
     $email = "sin email";
-    $estado = "sin jugo";
+    $estado = "sin estado";
     $comentario = "sin comentario";
     if ( !empty($_POST['nombre']) && !empty($_POST['comentario']) ) { 
         $nombre = $_POST['nombre'];
         $apellidos = $_POST['apellidos'];
         $email = $_POST['email'];
-        $estado = $_POST['jugo'];
+        $estado = $_POST['estado'];
         $comentario = $_POST['comentario'];
         echo $nombre;
         echo $apellidos;
@@ -23,7 +23,7 @@
 
         $mysqli = new mysqli($host,$user,$pass);
         mysqli_select_db($mysqli,$ddbb);
-        $sql = "INSERT INTO comentarios (nombre, apellidos, email, jugo, comentario) VALUES ('$nombre', '$apellidos', '$email', '$jugo', '$comentario')";
+        $sql = "INSERT INTO comentarios (nombre, apellidos, email, estado, comentario) VALUES ('$nombre', '$apellidos', '$email', '$estado', '$comentario')";
         $result = mysqli_query($mysqli,$sql);
     }
     /*
@@ -43,6 +43,7 @@
     mysqli_select_db($mysqli,$ddbb);
     $result = mysqli_query($mysqli,"SELECT * FROM comentarios");
 ?>
+
 <html>
     <head>
         <title>Producto integrador - Sitio Web responsivo con Flex y Grid </title>
